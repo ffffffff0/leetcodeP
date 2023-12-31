@@ -13,7 +13,7 @@
   Medium
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./src/neetcode/arrayHashing/ProductOfArrayExceptSelf.java) -
   Medium
-- [Valid Sudoku]() - [Solution]() - Medium
+- [Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) - [Solution](./src/neetcode/arrayHashing/ValidSudoku.java) - Medium
 - [Encode and Decode Strings]() - [Solution]() - Medium
 - [Longest Consecutive Sequence]() - [Solution]() - Medium
 
