@@ -1,4 +1,4 @@
-package simpleTest;
+package simpleTest.arrayHashing;
 
 import neetcode.arrayHashing.ProductOfArrayExceptSelf;
 

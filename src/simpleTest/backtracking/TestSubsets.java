@@ -1,4 +1,4 @@
-package simpleTest;
+package simpleTest.backtracking;
 
 import neetcode.backtracking.Subsets;
 
