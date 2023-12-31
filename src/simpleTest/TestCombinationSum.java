@@ -1,6 +1,6 @@
 package simpleTest;
 
-import neetcode.CombinationSum;
+import neetcode.backtracking.CombinationSum;
 import java.util.*;
 
 public class TestCombinationSum {

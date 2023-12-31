@@ -1,4 +1,4 @@
-package neetcode;
+package neetcode.arrayHashing;
 
 import java.util.HashMap;
 import java.util.Objects;

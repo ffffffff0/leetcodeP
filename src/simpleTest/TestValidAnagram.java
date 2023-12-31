@@ -1,6 +1,6 @@
 package simpleTest;
 
-import neetcode.ValidAnagram;
+import neetcode.arrayHashing.ValidAnagram;
 
 public class TestValidAnagram {
     public static void main(String[] args) {

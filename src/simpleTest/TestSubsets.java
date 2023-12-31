@@ -1,6 +1,6 @@
 package simpleTest;
 
-import neetcode.Subsets;
+import neetcode.backtracking.Subsets;
 
 import java.util.List;
 

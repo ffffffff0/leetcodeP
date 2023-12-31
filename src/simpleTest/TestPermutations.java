@@ -1,6 +1,6 @@
 package simpleTest;
 
-import neetcode.Permutations;
+import neetcode.backtracking.Permutations;
 
 import java.util.*;
 

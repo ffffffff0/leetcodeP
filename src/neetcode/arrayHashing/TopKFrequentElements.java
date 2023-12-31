@@ -1,4 +1,4 @@
-package neetcode;
+package neetcode.arrayHashing;
 
 import jdk.internal.dynalink.support.CompositeGuardingDynamicLinker;
 

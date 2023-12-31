@@ -1,4 +1,4 @@
-package neetcode;
+package neetcode.backtracking;
 
 import java.util.*;
 import java.util.stream.Collectors;
