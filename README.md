@@ -13,9 +13,12 @@
   Medium
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./src/neetcode/arrayHashing/ProductOfArrayExceptSelf.java) -
   Medium
-- [Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) - [Solution](./src/neetcode/arrayHashing/ValidSudoku.java) - Medium
-- [Encode and Decode Strings]() - [Solution]() - Medium
-- [Longest Consecutive Sequence]() - [Solution]() - Medium
+- [Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) - [Solution](./src/neetcode/arrayHashing/ValidSudoku.java) -
+  Medium
+- [Encode and Decode Strings](https://www.lintcode.com/problem/659/) - [Solution](./src/neetcode/arrayHashing/EncodeAndDecodeStrings.java) -
+  Medium
+- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - [Solution](./src/neetcode/arrayHashing/LongestConsecutiveSequence.java) -
+  Medium
 
 #### Backtracking
 
