@@ -31,3 +31,5 @@
   Medium
 - [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) - [Solution](./src/neetcode/backtracking/CombinationSumII.java) -
   Medium
+- [Word Search](https://leetcode.com/problems/word-search/) - [Solution](./src/neetcode/backtracking/WordSearch.java) -
+  Medium
