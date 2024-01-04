@@ -27,7 +27,7 @@ public class WordSearch {
      * @param word  目标词
      * @return 返回结果
      */
-    public boolean exists(char[][] board, String word) {
+    public boolean exist(char[][] board, String word) {
         useBoard = board;
         useWord = word.toCharArray();
 

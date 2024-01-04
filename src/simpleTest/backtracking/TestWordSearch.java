@@ -14,7 +14,7 @@ public class TestWordSearch {
                 {'A','D','E','E'}
         };
         String target = "ABCCED";
-        boolean ret = wordSearchInstance.exists(testArray, target);
+        boolean ret = wordSearchInstance.exist(testArray, target);
         System.out.println(ret);
 //        示例 2：
 //        输入：board = [['A','B','C','E'],['S','F','C','S'],['A','D','E','E']], word = 'SEE'
@@ -25,7 +25,7 @@ public class TestWordSearch {
                 {'A','D','E','E'}
         };
         target = "SEEA";
-        ret = wordSearchInstance.exists(testArray, target);
+        ret = wordSearchInstance.exist(testArray, target);
         System.out.println(ret);
     }
 }
