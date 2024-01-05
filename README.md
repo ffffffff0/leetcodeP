@@ -33,3 +33,5 @@
   Medium
 - [Word Search](https://leetcode.com/problems/word-search/) - [Solution](./src/neetcode/backtracking/WordSearch.java) -
   Medium
+- [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) - [Solution](./src/neetcode/backtracking/PalindromePartitioning.java) -
+  Medium
