@@ -24,14 +24,14 @@
 
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - [Solution](./src/neetcode/twoPointers/ValidPalindrome.java) -
   Easy
-- [Two Sum II Input Array Is Sorted]() - [Solution]() -
+- [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) - [Solution](./src/neetcode/twoPointers/TwoSumIIInputArrayIsSorted.java) -
   Medium
-- []() - [Solution]() -
+- [3Sum]() - [Solution]() -
   Medium
-- []() - [Solution]() -
+- [Container With Most Water]() - [Solution]() -
   Medium
-- []() - [Solution]() -
-  Medium
+- [Trapping Rain Water]() - [Solution]() -
+  Hard
 
 #### Backtracking
 
