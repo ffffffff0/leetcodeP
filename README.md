@@ -20,6 +20,19 @@
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) - [Solution](./src/neetcode/arrayHashing/LongestConsecutiveSequence.java) -
   Medium
 
+#### Two Pointers
+
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - [Solution](./src/neetcode/twoPointers/ValidPalindrome.java) -
+  Easy
+- [Two Sum II Input Array Is Sorted]() - [Solution]() -
+  Medium
+- []() - [Solution]() -
+  Medium
+- []() - [Solution]() -
+  Medium
+- []() - [Solution]() -
+  Medium
+
 #### Backtracking
 
 - [Subsets](https://leetcode.com/problems/subsets/) - [Solution](./src/neetcode/backtracking/Subsets.java)  - Medium
@@ -34,4 +47,6 @@
 - [Word Search](https://leetcode.com/problems/word-search/) - [Solution](./src/neetcode/backtracking/WordSearch.java) -
   Medium
 - [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) - [Solution](./src/neetcode/backtracking/PalindromePartitioning.java) -
+  Medium
+- [Letter Combinations of a Phone Number]() - [Solution]() -
   Medium
