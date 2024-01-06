@@ -48,5 +48,5 @@
   Medium
 - [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) - [Solution](./src/neetcode/backtracking/PalindromePartitioning.java) -
   Medium
-- [Letter Combinations of a Phone Number]() - [Solution]() -
+- [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - [Solution](./src/neetcode/backtracking/LetterCombinationsOfaPhoneNumber.java) -
   Medium
