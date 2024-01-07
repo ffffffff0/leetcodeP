@@ -28,7 +28,7 @@
   Medium
 - [3Sum](https://leetcode.com/problems/3sum/) - [Solution](./src/neetcode/twoPointers/ThreeSum.java) -
   Medium
-- [Container With Most Water]() - [Solution]() -
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) - [Solution](./src/neetcode/twoPointers/ContainerWithMostWater.java) -
   Medium
 - [Trapping Rain Water]() - [Solution]() -
   Hard
