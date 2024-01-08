@@ -50,3 +50,5 @@
   Medium
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) - [Solution](./src/neetcode/backtracking/LetterCombinationsOfaPhoneNumber.java) -
   Medium
+- [N Queens](https://leetcode.com/problems/n-queens/) - [Solution](./src/neetcode/backtracking/NQueens.java) -
+  Hard
