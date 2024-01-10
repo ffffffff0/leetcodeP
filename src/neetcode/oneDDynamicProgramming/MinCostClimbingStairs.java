@@ -32,14 +32,14 @@ import java.util.Arrays;
 public class MinCostClimbingStairs {
     /**
      * 到达 0 处顶端的最小花费
-     * [10, 15, 20] 0
-     * []
-     * | 10                   | 10
-     * 1                      2
-     * | 15           | 15    | 20            | 20
-     * 2             3        3               4
-     * | 20          | 20
-     * 3             4
+     *                                      [10, 15, 20] 0
+     *                                          []
+     *                             | 10                   | 10
+     *                             1                      2
+     *                     | 15           | 15    | 20            | 20
+     *                     2             3        3               4
+     *           | 20          | 20
+     *           3             4
      * dp[0] 代表从0处爬到顶端的最小花费
      * dp[0] = Math.min(dp[1] + cost[0], dp[2] + cost[0]) => dp[i] = Math.min(dp[i+1] + cost[i], dp[i+2] + cost[i])
      * 但是从后部来看, 一个数组长度为n, dp[n-1] = cost[n-1], dp[n] = 0, 因为dp[n] 就在顶点。
