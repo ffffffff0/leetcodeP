@@ -10,5 +10,10 @@ public class TestMinCostClimbingStairs {
         int[] testArray = new int[]{10, 15, 20};
         int ret = minCostClimbingStairsInstance.minCostClimbingStairs(testArray);
         System.out.println(ret);
+//        输入：cost = [1,100,1,1,1,100,1,1,100,1]
+//        输出：6
+        testArray = new int[]{1,100,1,1,1,100,1,1,100,1};
+        ret = minCostClimbingStairsInstance.minCostClimbingStairs(testArray);
+        System.out.println(ret);
     }
 }

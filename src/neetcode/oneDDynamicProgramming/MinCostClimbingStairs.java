@@ -1,5 +1,7 @@
 package neetcode.oneDDynamicProgramming;
 
+import com.sun.javafx.image.IntPixelGetter;
+
 import java.util.Arrays;
 
 /*
@@ -29,34 +31,56 @@ import java.util.Arrays;
  */
 public class MinCostClimbingStairs {
     /**
+     * 到达 0 处顶端的最小花费
+     * [10, 15, 20] 0
+     * []
+     * | 10                   | 10
+     * 1                      2
+     * | 15           | 15    | 20            | 20
+     * 2             3        3               4
+     * | 20          | 20
+     * 3             4
+     * dp[0] 代表从0处爬到顶端的最小花费
+     * dp[0] = Math.min(dp[1] + cost[0], dp[2] + cost[0]) => dp[i] = Math.min(dp[i+1] + cost[i], dp[i+2] + cost[i])
+     * 但是从后部来看, 一个数组长度为n, dp[n-1] = cost[n-1], dp[n] = 0, 因为dp[n] 就在顶点。
+     * dp[n-2] = Math.min(dp[n-1], dp[n]) + cost[n-2]
+     * 也就可以推的所有的值。dp[0...n]
+     *
      * @param cost 输入cost 数组
      * @return 返回最小cost
      */
     public int minCostClimbingStairs(int[] cost) {
         // dfs method
-        int[] memo = new int[cost.length];
-        Arrays.fill(memo, -1);
+//        int[] memo = new int[cost.length + 1];
+//        Arrays.fill(memo, -1);
+//
+//        return dfs(memo, cost, cost.length);
+        // dp
+        int n = cost.length + 1;
+        int[] dp = new int[n];
 
-        dfs(memo, cost, 0, 0);
-        System.out.println(Arrays.toString(memo));
-        return Math.min(memo[0], memo[1]);
+        dp[n - 1] = 0;
+        dp[n - 2] = cost[n - 2];
+
+        for (int i = n - 3; i >= 0; i--) {
+            dp[i] = Math.min(dp[i + 1], dp[i + 2]) + cost[i];
+        }
+        System.out.println(Arrays.toString(dp));
+        return Math.min(dp[0], dp[1]);
     }
 
-    public int dfs(int[] memo, int[] cost, int index, int sum) {
-        if (index > memo.length) {
+    public int dfs(int[] memo, int[] cost, int index) {
+        if (index <= 1) {
             return 0;
         }
-        if (index == memo.length) {
-            return sum;
-        }
-
         if (memo[index] != -1) {
             return memo[index];
         }
 
-        memo[index] = Math.min(dfs(memo, cost, index + 1, sum + cost[index]),
-                dfs(memo, cost, index + 2, sum + cost[index]));
+        memo[index] = Math.min(dfs(memo, cost, index - 1) + cost[index - 1],
+                dfs(memo, cost, index - 2) + cost[index - 2]);
 
+        System.out.println(Arrays.toString(memo));
         return memo[index];
     }
 }
