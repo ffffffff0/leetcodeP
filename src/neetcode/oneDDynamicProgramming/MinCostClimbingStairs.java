@@ -1,7 +1,5 @@
 package neetcode.oneDDynamicProgramming;
 
-import com.sun.javafx.image.IntPixelGetter;
-
 import java.util.Arrays;
 
 /*
@@ -51,36 +49,33 @@ public class MinCostClimbingStairs {
      */
     public int minCostClimbingStairs(int[] cost) {
         // dfs method
-//        int[] memo = new int[cost.length + 1];
-//        Arrays.fill(memo, -1);
-//
-//        return dfs(memo, cost, cost.length);
+        int[] memo = new int[cost.length];
+        Arrays.fill(memo, -1);
+
+        return Math.min(dfs(memo, cost, 0), dfs(memo, cost, 1));
         // dp
-        int n = cost.length + 1;
-        int[] dp = new int[n];
-
-        dp[n - 1] = 0;
-        dp[n - 2] = cost[n - 2];
-
-        for (int i = n - 3; i >= 0; i--) {
-            dp[i] = Math.min(dp[i + 1], dp[i + 2]) + cost[i];
-        }
-        System.out.println(Arrays.toString(dp));
-        return Math.min(dp[0], dp[1]);
+//        int n = cost.length + 1;
+//        int[] dp = new int[n];
+//
+//        dp[n - 1] = 0;
+//        dp[n - 2] = cost[n - 2];
+//
+//        for (int i = n - 3; i >= 0; i--) {
+//            dp[i] = Math.min(dp[i + 1], dp[i + 2]) + cost[i];
+//        }
+//        System.out.println(Arrays.toString(dp));
+//        return Math.min(dp[0], dp[1]);
     }
 
     public int dfs(int[] memo, int[] cost, int index) {
-        if (index <= 1) {
+        if (index >= memo.length) {
             return 0;
         }
         if (memo[index] != -1) {
             return memo[index];
         }
 
-        memo[index] = Math.min(dfs(memo, cost, index - 1) + cost[index - 1],
-                dfs(memo, cost, index - 2) + cost[index - 2]);
-
-        System.out.println(Arrays.toString(memo));
+        memo[index] = cost[index] + Math.min(dfs(memo, cost, index + 1), dfs(memo, cost, index + 2));
         return memo[index];
     }
 }

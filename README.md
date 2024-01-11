@@ -56,5 +56,7 @@
 #### 1-D Dynamic Programming
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - [Solution](./src/neetcode/oneDDynamicProgramming/ClimbingStairs.java) -
   Easy
-- [Min Cost Climbing Stairs]() - [Solution](./src/neetcode/oneDDynamicProgramming/MinCostClimbingStairs.java) -
+- [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) - [Solution](./src/neetcode/oneDDynamicProgramming/MinCostClimbingStairs.java) -
   Easy
+- [House Robber](https://leetcode.com/problems/house-robber/) - [Solution](./src/neetcode/oneDDynamicProgramming/HouseRobber.java) -
+  Medium
