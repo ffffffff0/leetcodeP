@@ -63,3 +63,4 @@
 - [House Robber II](https://leetcode.com/problems/house-robber-ii/) - [Solution](./src/neetcode/oneDDynamicProgramming/HouseRobberII.java) -
   Medium
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) - [Solution](./src/neetcode/oneDDynamicProgramming/LongestPalindromicSubstring.java) - Medium
+- [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) - [Solution](./src/neetcode/oneDDynamicProgramming/PalindromicSubstrings.java) - Medium
