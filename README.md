@@ -65,3 +65,4 @@
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) - [Solution](./src/neetcode/oneDDynamicProgramming/LongestPalindromicSubstring.java) - Medium
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) - [Solution](./src/neetcode/oneDDynamicProgramming/PalindromicSubstrings.java) - Medium
 - [Decode Ways](https://leetcode.com/problems/decode-ways/) - [Solution](./src/neetcode/oneDDynamicProgramming/DecodeWays.java) - Medium
+- [Coin Change](https://leetcode.com/problems/coin-change/) - [Solution](./src/neetcode/oneDDynamicProgramming/CoinChange.java) - Medium
