@@ -33,6 +33,13 @@
 - [Trapping Rain Water]() - [Solution]() -
   Hard
 
+#### Stacks
+
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - [Solution](./src/neetcode/stack/ValidParentheses.java) -
+  Easy
+- [Min Stack](https://leetcode.com/problems/min-stack/) - [Solution](./src/neetcode/stack/MinStack.java) -
+  Medium
+
 #### Backtracking
 
 - [Subsets](https://leetcode.com/problems/subsets/) - [Solution](./src/neetcode/backtracking/Subsets.java)  - Medium
@@ -66,3 +73,4 @@
 - [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) - [Solution](./src/neetcode/oneDDynamicProgramming/PalindromicSubstrings.java) - Medium
 - [Decode Ways](https://leetcode.com/problems/decode-ways/) - [Solution](./src/neetcode/oneDDynamicProgramming/DecodeWays.java) - Medium
 - [Coin Change](https://leetcode.com/problems/coin-change/) - [Solution](./src/neetcode/oneDDynamicProgramming/CoinChange.java) - Medium
+- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - [Solution](./src/neetcode/oneDDynamicProgramming/MaximumProductSubarray.java) - Medium

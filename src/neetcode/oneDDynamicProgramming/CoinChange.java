@@ -41,39 +41,35 @@ public class CoinChange {
      * @return 返回最少的硬币数量
      */
     public int coinChange(int[] coins, int amount) {
-        if (amount == 0) {
-            return 0;
-        }
         // dfs
         int[] memo = new int[amount + 1];
-        Arrays.fill(memo, Integer.MAX_VALUE);
-
-        dfs(coins, memo, amount);
-        return memo[amount] == Integer.MAX_VALUE ? -1 : memo[amount];
+        return dfs(coins, memo, amount);
         // dp
+
     }
 
     public int dfs(int[] coins, int[] memo, int amount) {
         if (amount < 0) {
-            return Integer.MAX_VALUE;
+            return -1;
         }
         if (amount == 0) {
             return 0;
         }
 
-        if (memo[amount] != Integer.MAX_VALUE) {
+        if (memo[amount] != 0) {
             return memo[amount];
         }
 
         int ret = Integer.MAX_VALUE;
         for (int coin : coins) {
-            int temp  = dfs(coins, memo, amount - coin);
-            if (temp != Integer.MAX_VALUE) {
-                ret = Math.min(ret, temp + 1);
+            int dfsRet  = dfs(coins, memo, amount - coin);
+            if (dfsRet < 0) {
+                continue;
             }
+            ret = Math.min(ret, dfsRet + 1);
         }
 
-        memo[amount] = ret;
+        memo[amount] = ret == Integer.MAX_VALUE ? -1 : ret;
         return memo[amount];
     }
 }
