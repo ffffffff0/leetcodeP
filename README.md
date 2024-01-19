@@ -39,7 +39,8 @@
   Easy
 - [Min Stack](https://leetcode.com/problems/min-stack/) - [Solution](./src/neetcode/stack/MinStack.java) -
   Medium
-
+- [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - [Solution](./src/neetcode/stack/EvaluateReversePolishNotation.java) -
+  Medium
 #### Backtracking
 
 - [Subsets](https://leetcode.com/problems/subsets/) - [Solution](./src/neetcode/backtracking/Subsets.java)  - Medium
