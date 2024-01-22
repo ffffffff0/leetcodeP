@@ -41,6 +41,8 @@
   Medium
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) - [Solution](./src/neetcode/stack/EvaluateReversePolishNotation.java) -
   Medium
+- [GenerateParentheses](https://leetcode.com/problems/generate-parentheses/) - [Solution](./src/neetcode/stack/GenerateParentheses.java) -
+  Medium
 #### Backtracking
 
 - [Subsets](https://leetcode.com/problems/subsets/) - [Solution](./src/neetcode/backtracking/Subsets.java)  - Medium
