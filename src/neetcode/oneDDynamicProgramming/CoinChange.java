@@ -1,5 +1,7 @@
 package neetcode.oneDDynamicProgramming;
 
+import java.util.*;
+
 /*
 给你一个整数数组 coins ，表示不同面额的硬币；以及一个整数 amount ，表示总金额。
 计算并返回可以凑成总金额所需的 最少的硬币个数 。如果没有任何一种硬币组合能组成总金额，返回 -1 。
@@ -33,6 +35,10 @@ public class CoinChange {
      *    9        8         5     8          7          4        5           4           1
      *  .......
      *  2. dp
+     *  dp[0] = 0
+     *  dp[1] = 1 + dp[0]
+     *  dp[2] = Math.min(dp[2], 1 + dp[1]), Math.min(dp[2], 1(use 2))
+     *  dp[3] = Math.min(dp[3], 1 +dp[2]), Math.min(dp[3], 1 + dp[1])
      *
      * @param coins 输入coins
      * @param amount 总数量
@@ -40,10 +46,25 @@ public class CoinChange {
      */
     public int coinChange(int[] coins, int amount) {
         // dfs
-        int[] memo = new int[amount + 1];
-        return dfs(coins, memo, amount);
+        // int[] memo = new int[amount + 1];
+        // return dfs(coins, memo, amount);
         // dp
+        if (amount == 0) {
+            return 0;
+        }
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, amount + 1);
+        dp[0] = 1;
 
+        for (int number = 1; number < amount + 1; number++) {
+            for (int coin : coins) {
+                if (number - coin >= 0) {
+                    dp[number] = Math.min(dp[number], 1 + dp[number - coin]);
+                }
+            }
+        }
+
+        return dp[amount] == amount + 1 ? -1 : dp[amount];
     }
 
     public int dfs(int[] coins, int[] memo, int amount) {

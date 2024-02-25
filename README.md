@@ -78,3 +78,4 @@
 - [Coin Change](https://leetcode.com/problems/coin-change/) - [Solution](./src/neetcode/oneDDynamicProgramming/CoinChange.java) - Medium
 - [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) - [Solution](./src/neetcode/oneDDynamicProgramming/MaximumProductSubarray.java) - Medium
 - [Word Break](https://leetcode.com/problems/word-break/) - [Solution](./src/neetcode/oneDDynamicProgramming/WordBreak.java) - Medium
+- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) - [Solution](./src/neetcode/oneDDynamicProgramming/LongestIncreasingSubsequence.java) - Medium
