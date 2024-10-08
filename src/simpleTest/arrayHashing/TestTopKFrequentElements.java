@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.TopKFrequentElements;
+import neetcode.arrayHashing.java.TopKFrequentElements;
 
 import java.util.Arrays;
 

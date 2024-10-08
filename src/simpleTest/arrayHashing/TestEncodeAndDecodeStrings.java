@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.EncodeAndDecodeStrings;
+import neetcode.arrayHashing.java.EncodeAndDecodeStrings;
 
 import java.util.ArrayList;
 import java.util.List;

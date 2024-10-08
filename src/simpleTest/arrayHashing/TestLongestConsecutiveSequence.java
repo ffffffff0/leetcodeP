@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.LongestConsecutiveSequence;
+import neetcode.arrayHashing.java.LongestConsecutiveSequence;
 
 public class TestLongestConsecutiveSequence {
     public static void main(String[] args) {

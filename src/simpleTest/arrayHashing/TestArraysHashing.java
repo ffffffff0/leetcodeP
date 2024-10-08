@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.ArraysHashing;
+import neetcode.arrayHashing.java.ArraysHashing;
 
 public class TestArraysHashing {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.ProductOfArrayExceptSelf;
+import neetcode.arrayHashing.java.ProductOfArrayExceptSelf;
 
 import java.util.Arrays;
 

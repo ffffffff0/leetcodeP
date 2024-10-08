@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.TwoSum;
+import neetcode.arrayHashing.java.TwoSum;
 
 import java.util.Arrays;
 

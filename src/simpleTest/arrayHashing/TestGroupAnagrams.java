@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.GroupAnagrams;
+import neetcode.arrayHashing.java.GroupAnagrams;
 
 import java.util.List;
 

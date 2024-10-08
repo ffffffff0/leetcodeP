@@ -1,5 +1,6 @@
 package neetcode.oneDDynamicProgramming;
 
+import java.util.Arrays;
 /*
 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
 
@@ -23,9 +24,30 @@ public class LongestIncreasingSubsequence {
     /**
      *
      * @param nums 输入数组
-     * @return 最长严格递增子序列的长度
+     * @return 返回最大连续子数组
      */
+    private int ret = 0;
+    private int[] useNums;
+    private int[] useCache;
     public int lengthOfLIS(int[] nums) {
+        // dfs + cache
+        useNums = nums;
+        useCache = new int[nums.length];
+        Arrays.fill(useCache, -1);
 
+        return ret;
+    }
+
+    public int dfs(int index, int sum) {
+        if (index == useNums.length) {
+            return 1;
+        }
+        if (useCache[index] != -1) {
+            return useCache[index];
+        }
+
+        for (int i = index; i < useNums.length; i++) {
+            dfs(i, sum + 1);
+        }
     }
 }

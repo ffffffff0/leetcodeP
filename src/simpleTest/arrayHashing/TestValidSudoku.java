@@ -1,6 +1,6 @@
 package simpleTest.arrayHashing;
 
-import neetcode.arrayHashing.ValidSudoku;
+import neetcode.arrayHashing.java.ValidSudoku;
 
 public class TestValidSudoku {
     public static void main(String[] args) {
