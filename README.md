@@ -2,16 +2,16 @@
 
 #### Arrays & Hashing
 
-- [Arrays & Hashing](https://leetcode.com/problems/contains-duplicate/) - [Solution](./src/neetcode/arrayHashing/ArraysHashing.java) -
+- [Arrays & Hashing](https://leetcode.com/problems/contains-duplicate/) - [Solution](./src/neetcode/arrayHashing/go/arrays_hashing.go) -
   Easy
-- [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - [Solution](./src/neetcode/arrayHashing/ValidAnagram.java) -
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - [Solution](./src/neetcode/arrayHashing/java/ValidAnagram.java) -
   Easy
-- [Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./src/neetcode/arrayHashing/TwoSum.java) - Easy
-- [Group Anagrams](https://leetcode.com/problems/group-anagrams/) - [Solution](./src/neetcode/arrayHashing/GroupAnagrams.java) -
+- [Two Sum](https://leetcode.com/problems/two-sum/) - [Solution](./src/neetcode/arrayHashing/go/two_sum.go) - Easy
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/) - [Solution](./src/neetcode/arrayHashing/java/GroupAnagrams.java) -
   Medium
-- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - [Solution](./src/neetcode/arrayHashing/TopKFrequentElements.java) -
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - [Solution](./src/neetcode/arrayHashing/go/topk_frequent_elements.go) -
   Medium
-- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./src/neetcode/arrayHashing/ProductOfArrayExceptSelf.java) -
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) - [Solution](./src/neetcode/arrayHashing/go/product_except_self.go) -
   Medium
 - [Valid Sudoku](https://leetcode.cn/problems/valid-sudoku/) - [Solution](./src/neetcode/arrayHashing/ValidSudoku.java) -
   Medium
