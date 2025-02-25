@@ -1,5 +1,7 @@
 package main
 
+import "leetcodeP/src/neetcode/utils"
+
 /*
 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那 两个 整数，并返回它们的数组下标。
 
@@ -23,14 +25,64 @@ package main
 */
 
 func TwoSum(nums []int, target int) []int {
-	uMap := make(map[int]int)
-	for i, v := range nums {
-		left := target - nums[i]
-		j, ok := uMap[left]
-		if ok {
-			return []int{j, i}
+	if nums == nil || len(nums) <= 1 {
+		return []int{-1, -1}
+	}
+
+	hash := make(map[int]int)
+
+	for i, value := range nums {
+		left := target - value
+		if _, ok := hash[left]; ok {
+			return []int{hash[left], i}
 		}
-		uMap[v] = i
+
+		hash[value] = i
+	}
+
+	return []int{-1, -1}
+}
+
+// TwoSum brute force
+func TwoSum1(nums []int, target int) []int {
+	if nums == nil || len(nums) <= 1 {
+		return []int{-1, -1}
+	}
+
+	for i, val := range nums {
+		for j := i + 1; j < len(nums); j++ {
+			if val+nums[j] == target {
+				return []int{i, j}
+			}
+		}
+	}
+
+	return []int{-1, -1}
+}
+
+// TwoSum sort
+func TwoSum2(nums []int, target int) []int {
+	if nums == nil || len(nums) <= 1 {
+		return []int{-1, -1}
+	}
+
+	// use quick sort
+	utils.QuicSort(nums, 0, len(nums)-1)
+
+	left := 0
+	right := len(nums) - 1
+
+	for left < right {
+		sum := nums[left] + nums[right]
+		if sum == target {
+			return []int{left, right}
+		}
+
+		if sum < target {
+			left++
+		} else if sum > target {
+			right--
+		}
 	}
 
 	return []int{-1, -1}
