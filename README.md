@@ -1,5 +1,9 @@
 # leetcodeP
 
+#### Binary Search
+
+- [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/binarySearch/go/findMin.go) - Medium
+
 #### Arrays & Hashing
 
 - [Arrays & Hashing](https://leetcode.com/problems/contains-duplicate/) - [Solution](./src/neetcode/arrayHashing/go/arrays_hashing.go) -
