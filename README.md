@@ -1,5 +1,9 @@
 # leetcodeP
 
+#### Intervals
+
+- [Insert Interval](https://leetcode.com/problems/insert-interval/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/insert.go)
+
 #### Binary Search
 
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/binarySearch/go/findMin.go) - Medium

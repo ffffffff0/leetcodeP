@@ -24,6 +24,7 @@ import "leetcodeP/src/neetcode/utils"
 输出：[0,1]
 */
 
+// TwoSum time: O(n), space: O(n)
 func TwoSum(nums []int, target int) []int {
 	if nums == nil || len(nums) <= 1 {
 		return []int{-1, -1}
@@ -43,7 +44,7 @@ func TwoSum(nums []int, target int) []int {
 	return []int{-1, -1}
 }
 
-// TwoSum brute force
+// TwoSum brute force: time: O(n^2), space: O(1)
 func TwoSum1(nums []int, target int) []int {
 	if nums == nil || len(nums) <= 1 {
 		return []int{-1, -1}
@@ -60,7 +61,7 @@ func TwoSum1(nums []int, target int) []int {
 	return []int{-1, -1}
 }
 
-// TwoSum sort
+// TwoSum sort, time: O(nlogn), space: O(1)
 func TwoSum2(nums []int, target int) []int {
 	if nums == nil || len(nums) <= 1 {
 		return []int{-1, -1}
