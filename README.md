@@ -2,7 +2,7 @@
 
 #### Intervals
 
-- [Insert Interval](https://leetcode.com/problems/insert-interval/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/insert.go)
+- [Insert Interval](https://leetcode.com/problems/insert-interval/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/insert_test.go) - Medium
 
 #### Binary Search
 
