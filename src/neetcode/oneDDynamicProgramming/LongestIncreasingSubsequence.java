@@ -1,6 +1,6 @@
 package neetcode.oneDDynamicProgramming;
 
-import java.util.Arrays;
+import java.util.*;
 /*
 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
 
@@ -21,33 +21,42 @@ import java.util.Arrays;
 输出：1
  */
 public class LongestIncreasingSubsequence {
-    /**
-     *
-     * @param nums 输入数组
-     * @return 返回最大连续子数组
-     */
-    private int ret = 0;
-    private int[] useNums;
-    private int[] useCache;
     public int lengthOfLIS(int[] nums) {
-        // dfs + cache
-        useNums = nums;
-        useCache = new int[nums.length];
-        Arrays.fill(useCache, -1);
 
-        return ret;
+        List<Integer> dp = new ArrayList<>();
+        dp.add(nums[0]);
+
+        int res = 1;
+        for (int n : nums) {
+            if (n > dp.get(dp.size()-1)) {
+                dp.add(n);
+                res++;
+                continue;
+            }
+
+            // update max value in dp array
+            int idx = search(nums, n);
+            dp.add(idx, n);
+        }
+
+        return res;
     }
 
-    public int dfs(int index, int sum) {
-        if (index == useNums.length) {
-            return 1;
-        }
-        if (useCache[index] != -1) {
-            return useCache[index];
+    public int search(int[] nums, int target) {
+        // for search greater than target first index
+        int left = 0;
+        int right = nums.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (target >= nums[mid]) {
+                right = mid;
+            } else if (target < nums[mid]) {
+                left = mid + 1;
+            }
         }
 
-        for (int i = index; i < useNums.length; i++) {
-            dfs(i, sum + 1);
-        }
+        return left;
     }
 }
