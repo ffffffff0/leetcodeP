@@ -3,8 +3,7 @@
 #### Intervals
 
 - [Insert Interval](https://leetcode.com/problems/insert-interval/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/insert_test.go) - Medium
-
-- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/merge_test) - Medium
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/merge_test.go) - Medium
 
 #### Binary Search
 
