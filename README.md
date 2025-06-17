@@ -4,6 +4,8 @@
 
 - [Insert Interval](https://leetcode.com/problems/insert-interval/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/insert_test.go) - Medium
 
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/intervals/go/merge_test) - Medium
+
 #### Binary Search
 
 - [find-minimum-in-rotated-sorted-array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/?envType=problem-list-v2&envId=237k3tne) - [Solution](./src/neetcode/binarySearch/go/findMin.go) - Medium
