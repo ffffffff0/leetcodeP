@@ -1,4 +1,4 @@
-package neetcode.oneDDynamicProgramming;
+package neetcode.DP1;
 
 import java.util.*;
 

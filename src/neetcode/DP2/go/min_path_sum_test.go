@@ -18,4 +18,5 @@ Output: 12
 */
 
 func minPathSum(grid [][]int) int {
+	return -1
 }
