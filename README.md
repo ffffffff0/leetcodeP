@@ -72,6 +72,10 @@
 - [N Queens](https://leetcode.com/problems/n-queens/) - [Solution](./src/neetcode/backtracking/NQueens.java) -
   Hard
 
+#### 2-D Dynamic Programming
+-[Triangle](https://leetcode.com/problems/triangle/description/?envType=study-plan-v2&envId=top-interview-150) - [Solution](./src/neetcode/DP2/go/triangle_test.go) - Medium
+-[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/?envType=study-plan-v2&envId=top-interview-150) - [Solution](./src/neetcode/DP2/min_path_sum_test.go) - Medium
+
 #### 1-D Dynamic Programming
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - [Solution](./src/neetcode/oneDDynamicProgramming/ClimbingStairs.java) -
   Easy
